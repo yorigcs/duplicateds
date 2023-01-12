@@ -8,8 +8,8 @@ public class DuplicatedElements {
     private final List<String> duplicateds= new ArrayList<>();
     public DuplicatedElements(String[] arr1, String[] arr2) {
         Map<String, Boolean> hashMap = new HashMap<>();
-        for (String value : arr1) {
-            hashMap.put(value, true);
+        for (String item : arr1) {
+            hashMap.put(item, true);
         }
 
         for (String s : arr2) {
